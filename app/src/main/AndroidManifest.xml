@@ -11,12 +11,13 @@
         <activity
             android:name=".BottomDialogActivity"
             android:label="Bottom Dialog"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ZoomImageActivity"/>
         <activity
             android:name=".ImageAnimationActivity"
             android:label="Image Animation"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ConstraintLayoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
